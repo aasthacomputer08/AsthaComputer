@@ -1,1 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>School Print & Merchandise — Photo ID, Prints, Tshirts</title>
+  <meta name="description" content="Photo ID cards, tie & belt tailoring for schools, photo prints, t-shirt printing, frames, Instagram profile prints." />
+  <style>
+    /* --- Reset & base --- */
+    :root{--primary:#0f4c81;--accent:#f3a712;--muted:#666;--bg:#f8fafc}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#222;background:var(--bg)}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+
+    /* --- Header --- */
+    header{background:linear-gradient(90deg,var(--primary),#163f63);color:#fff;padding:18px 0}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand .logo{width:48px;height:48px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--primary)}
+    nav ul{display:flex;gap:12px;list-style:none;margin:0;padding:0}
+    .btn{background:var(--accent);color:#111;padding:8px 14px;border-radius:8px;font-weight:600}
+
+    /* --- Hero --- */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:40px 0}
+    .hero h1{font-size:34px;margin:0 0 12px}
+    .hero p{color:var(--muted);line-height:1.5}
+    .card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(15,76,129,0.08)}
+
+    /* --- Services grid --- */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0}
+    .service{background:#fff;padding:18px;border-radius:12px;min-height:140px;display:flex;flex-direction:column;gap:8px}
+    .service h3{margin:0}
+    .service p{margin:0;color:var(--muted);font-size:14px}
+
+    /* --- Gallery --- */
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+    .gallery .item{border-radius:8px;overflow:hidden;background:#eee;height:120px;display:flex;align-items:center;justify-content:center;color:#555}
+
+    /* --- Order form --- */
+    form .row{display:flex;gap:10px;margin-bottom:10px}
+    form input, form select, form textarea{width:100%;padding:10px;border:1px solid #e6eef6;border-radius:8px}
+    form label{font-size:13px;color:var(--muted);display:block;margin-bottom:6px}
+    .small{font-size:13px;color:var(--muted)}
+
+    /* --- Footer --- */
+    footer{padding:24px 0;color:var(--muted)}
+
+    /* --- Responsive tweaks --- */
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr}
+      .hero .card{order:2}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">SP</div>
+        <div>
+          <div style="font-weight:700">SchoolPrint</div>
+          <div style="font-size:12px;opacity:.85">Photo IDs · Tshirts · Frames · More</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn" href="#order">Place Order</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Create professional school merchandise & prints</h1>
+        <p>Photo ID cards, tie & belt tailoring for schools, photo prints, t-shirt printing, photo frame prints, and Instagram profile prints — single-order or bulk for schools and events. Use the form to request a quote or place an order.</p>
+
+        <div class="grid">
+          <div class="service card">
+            <h3>Student Photo ID Cards</h3>
+            <p>Design templates, lamination, barcodes/QR, principal signature placement and validity dates. Print & lamination options available.</p>
+            <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+              <small class="small">From ₹25 / card (bulk)</small>
+              <a href="#order">Order</a>
+            </div>
+          </div>
+
+          <div class="service card">
+            <h3>Tie & Belt (Tailored)</h3>
+            <p>Custom school ties and belts in school colors, logo embroidery, and bulk pricing for uniform suppliers.</p>
+            <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+              <small class="small">MOQ 20 pcs</small>
+              <a href="#order">Order</a>
+            </div>
+          </div>
+
+          <div class="service card">
+            <h3>Photo Prints & Frames</h3>
+            <p>Glossy and matte prints, framed and unframed options, multiple sizes and custom mounting.</p>
+            <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+              <small class="small">Same-day pickup</small>
+              <a href="#order">Order</a>
+            </div>
+          </div>
+
+          <div class="service card">
+            <h3>T‑shirt Printing</h3>
+            <p>Screen print, DTG, and heat transfer for school events, house t-shirts, and sports jerseys.</p>
+            <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+              <small class="small">Bulk discounts</small>
+              <a href="#order">Order</a>
+            </div>
+          </div>
+
+          <div class="service card">
+            <h3>Instagram Profile Prints</h3>
+            <p>Square prints and collage prints optimized for Instagram profile images — great for gifts and yearbooks.</p>
+            <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+              <small class="small">Custom sizes</small>
+              <a href="#order">Order</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <aside class="card">
+        <h3>Quick Quote</h3>
+        <p class="small">Choose a service, fill quantity and contact details — we'll email a price estimate.</p>
+        <form id="quickQuote">
+          <label>Service</label>
+          <select name="service">
+            <option>Photo ID Cards</option>
+            <option>Tie & Belt</option>
+            <option>Photo Prints</option>
+            <option>T-shirt Printing</option>
+            <option>Frames</option>
+          </select>
+
+          <label>Quantity</label>
+          <input type="number" name="qty" min="1" value="50" />
+
+          <label>School / Contact</label>
+          <input type="text" name="school" placeholder="School name or contact person" />
+
+          <label>Phone / Email</label>
+          <input type="text" name="contact" placeholder="Mobile or email" />
+
+          <div style="display:flex;gap:10px;margin-top:10px">
+            <button type="submit" class="btn">Request Quote</button>
+            <button type="button" id="demoFill">Demo Fill</button>
+          </div>
+        </form>
+      </aside>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p class="small">Sample work & templates — replace placeholders with your real images.</p>
+      <div class="gallery">
+        <div class="item">ID Template</div>
+        <div class="item">T-shirt Mockup</div>
+        <div class="item">Framed Photo</div>
+        <div class="item">Tie Samples</div>
+        <div class="item">Belt Design</div>
+        <div class="item">Instagram Collage</div>
+      </div>
+    </section>
+
+    <section id="order" style="margin-top:26px">
+      <h2>Place an Order / Request Quote</h2>
+      <div style="display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:12px">
+        <div class="card">
+          <form id="orderForm">
+            <label>Service</label>
+            <select name="service">
+              <option>Photo ID Cards</option>
+              <option>Tie & Belt</option>
+              <option>Photo Prints</option>
+              <option>T-shirt Printing</option>
+              <option>Frames</option>
+            </select>
+
+            <div class="row">
+              <div style="flex:1">
+                <label>Quantity</label>
+                <input type="number" name="quantity" min="1" value="50" />
+              </div>
+              <div style="width:140px">
+                <label>Size</label>
+                <select name="size"><option>Default</option><option>Small</option><option>Medium</option><option>Large</option></select>
+              </div>
+            </div>
+
+            <label>Upload design / photo (optional)</label>
+            <input type="file" name="file" accept="image/*" />
+
+            <label>Additional notes</label>
+            <textarea name="notes" rows="4" placeholder="Tell us color, logo, signatures required..."></textarea>
+
+            <label>Contact name</label>
+            <input type="text" name="name" required />
+
+            <label>Phone or Email</label>
+            <input type="text" name="contact" required />
+
+            <div style="display:flex;gap:10px;margin-top:12px">
+              <button class="btn">Send Request</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <div class="card">
+            <h3>Why choose us?</h3>
+            <ul class="small">
+              <li>Bulk pricing & school partnerships</li>
+              <li>On-site sample approvals</li>
+              <li>Multiple printing technologies available</li>
+              <li>Secure handling of student photos & data</li>
+            </ul>
+          </div>
+
+          <div style="height:16px"></div>
+
+          <div class="card">
+            <h4>Contact</h4>
+            <p class="small">Phone: +91 98765 43210<br/>Email: sales@schoolprint.example</p>
+            <p class="small">Address: Replace with your shop or office address.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:26px">
+      <h2>Contact & Map</h2>
+      <div class="card">
+        <p class="small">Use the contact details above or write to us. For bulk school orders we can prepare a formal quote and site visit.</p>
+        <!-- Placeholder for map iframe: replace src with Google Maps embed when ready -->
+        <div style="background:#eef;min-height:160px;border-radius:8px;display:flex;align-items:center;justify-content:center;margin-top:10px">Map Placeholder</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+      <div class="small">© SchoolPrint — Built with ❤️. Customize this template for your shop.</div>
+      <div class="small">Designed for quick quoting & order intake</div>
+    </div>
+  </footer>
+
+  <script>
+    // Basic UI interactions and form handling (front-end only)
+    document.getElementById('demoFill').addEventListener('click', function(){
+      const f=document.getElementById('quickQuote');
+      f.school.value='St. Mary\'s High School';
+      f.contact.value='principal@school.edu / +91 98xxxxxxx';
+      f.qty.value=120;alert('Demo filled — submit to test. (This is only front-end)');
+    });
+
+    // Simple front-end validation & fake send
+    function fakeSend(data){
+      // This function simulates sending to server. Replace with fetch/ajax to your backend.
+      return new Promise((resolve)=>setTimeout(()=>resolve({ok:true, id:Date.now()}),800));
+    }
+
+    document.getElementById('quickQuote').addEventListener('submit', async function(e){
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      const obj = Object.fromEntries(fd.entries());
+      const res = await fakeSend(obj);
+      if(res.ok) alert('Quote requested — we will contact you shortly. Ref# '+res.id);
+    });
+
+    document.getElementById('orderForm').addEventListener('submit', async function(e){
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      // File handling: for real integration, post this to backend via fetch
+      const res = await fakeSend(Object.fromEntries(fd.entries()));
+      if(res.ok) alert('Order request sent — we will contact you. Ref# '+res.id);
+      e.target.reset();
+    });
+
+    // Small improvements: smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        const id = this.getAttribute('href');
+        const el = document.querySelector(id);
+        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+      });
+    });
+
+    // Accessibility: skip to content when pressing 's' (simple helper)
+    window.addEventListener('keydown', function(e){if(e.key==='s'){document.querySelector('main').scrollIntoView({behavior:'smooth'});}});
+  </script>
+
+  <!--
+    NOTES for deployment and customization:
+    - Replace placeholder images and gallery items with real photos.
+    - Hook up forms to a real backend (PHP/Node/Python) or Google Sheets / Zapier for quick leads.
+    - For bulk orders (ID cards) include CSV upload of students: add a CSV parser on server side to map name, dob, class, photo filename.
+    - For production, add HTTPS, server-side validation, and a small admin dashboard to approve mockups.
+    - If you want, I can generate a PHP endpoint and sample DB schema to accept orders & CSV uploads.
+  -->
+</body>
+</html>
 
